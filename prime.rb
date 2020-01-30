@@ -1,12 +1,11 @@
 def prime?(n)
-  nums = (2..(n-1)).to_a
-  return false if n < 2
-  nums.each do |num|
-    if n % num = 0
-      return false
-    else
-      return true
+  if n > 1
+  nums = (2..n-1).to_a
+  nums.none? do |num|
+    n % num == 0
     end
+  else
+    false
   end
 end
 
