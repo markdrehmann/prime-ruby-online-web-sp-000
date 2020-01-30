@@ -10,5 +10,5 @@ def prime?(n)
 end
 
 
-# if i <= 1, false
-# check if any numbers are factors up to square root of i
+# if n <= 1, false
+# check if any numbers are factors up to square root of i, or n/2...
