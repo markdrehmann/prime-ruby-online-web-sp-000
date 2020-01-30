@@ -1,5 +1,5 @@
 def prime?(n)
-  numbers = (2..n).to_a
+  nums = (2..n).to_a
     if n < 2
       return false
     end
