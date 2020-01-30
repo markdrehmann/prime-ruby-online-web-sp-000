@@ -1,6 +1,6 @@
 def prime?(n)
   if n > 1
-  nums = (2..n-1).to_a
+  nums = (2..n/2).to_a
   nums.none? do |num|
     n % num == 0
     end
